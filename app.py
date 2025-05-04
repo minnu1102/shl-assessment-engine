@@ -107,3 +107,8 @@ with st.expander("View API Documentation"):
 # Footer
 st.markdown("---")
 st.caption("SHL Assessment Navigator © 2023 | Powered by AI-based matching technology")
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000)
+
